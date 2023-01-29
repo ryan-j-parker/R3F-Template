@@ -2,7 +2,15 @@
   "name": "react-base-template",
   "version": "0.1.0",
   "private": true,
+  "author": "Ryan J. Parker",
   "dependencies": {
+    "@react-spring/web": "^9.6.1",
+    "@react-three/drei": "^9.56.5",
+    "@react-three/fiber": "^8.10.1",
+    "@react-three/rapier": "^0.12.2",
+    "gsap": "^3.11.4",
+    "leva": "^0.9.34",
+    "three": "^0.149.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -12,7 +20,8 @@
     "web-vitals": "^2.1.4",
     "@supabase/supabase-js": "^1.28.5",
     "netlify-cli": "^9.4.4",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "zustand": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
