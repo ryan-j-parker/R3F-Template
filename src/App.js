@@ -18,7 +18,7 @@ export default function App() {
           fov: 45,
           near: 0.1,
           far: 400,
-          position: [0, 2, 10],
+          position: [0, 2, 8],
         }}
         gl={{
           antialias: true,
@@ -32,7 +32,21 @@ export default function App() {
         <pointLight position={[20, 10, -10]} intensity={2} />
         <primitive object={new THREE.AxesHelper(2)} />
         <primitive object={new THREE.GridHelper(20, 20)} />
-        <OrbitControls />
+        <OrbitControls 
+          makeDefault 
+          enableDamping
+          dampingFactor={0.1}
+          enableZoom
+          // the props below limit the rotation speed and range of the camera
+          // for full freedom of movement, comment them out
+          rotateSpeed={0.25}
+          zoomSpeed={0.75}
+          minDistance={5}
+          maxDistance={15}
+          maxPolarAngle={Math.PI * 0.5}
+          minPolarAngle={Math.PI * 0.25}
+          panSpeed={0.5}
+        />
         <FloatingText />
         <Box key="box" />
       </Canvas>
