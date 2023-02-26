@@ -5,20 +5,20 @@
 
 
 > #### Comes packaged with: 
-> * Animated cube mesh with useFrame & onClick wired up
-> * Text3D with preimported custom font and matcap material
-> * A GridHelper and AxesHelper rendered as primitive objects
-> * Lights, managed orbit controls, suspense, and loading state
+> * Animated cube mesh with <b>useFrame</b> & <b>onClick</b> wired up
+> * <b>Text3D</b> with pre-imported custom <b>font</b> and <b>matcap</b> material
+> * A <b>GridHelper</b> and <b>AxesHelper</b> rendered as primitive objects
+> * <b>Lights</b>, managed <b>orbit controls</b>, and <b>suspense</b> with loading spinner fallback
 > * Dependencies: 
->    - R3F, 
->    - R3Rapier, 
->    - R3Drei, 
->    - React Spring, 
->    - Leva, 
->    - Zustand, 
->    - GSAP, 
->    - Three
-    
+>    - R3F  
+>    - R3Rapier  
+>    - R3Drei  
+>    - React Spring  
+>    - Leva  
+>    - Zustand  
+>    - GSAP  
+>    - Three  
+
 To start, simply run
 
 - `npm install`
